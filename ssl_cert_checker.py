@@ -14,8 +14,8 @@ INPUT:        FQDN. Input may be:
 
 OUTPUT:       String Zabbix uses for triggers.
 
-EXAMPLES:     python3.6 custom.ss.ssl.py "google.com"
-              python3.6 custom.ss.ssl.py "https://www.google.com:443#15"
+EXAMPLES:     python3.6 ssl_cert_checker.py "google.com"
+              python3.6 ssl_cert_checker.py "https://www.google.com:443#15"
 
 TODO:
     - Manage SEC_ERROR_REVOKED_CERTIFICATE (revoked.badssl.com)
